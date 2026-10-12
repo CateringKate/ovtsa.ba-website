@@ -1,24 +1,31 @@
 
-            body {	
-					margin: 5% auto; 
-					background: url('ovtse.jpeg') center center repeat; 
-					color: #444444; 
-					font-family: -apple-system, BlinkMacSystemFont, 
-					"Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-					font-size: 16px; 
-					line-height: 1.8; 
-					text-shadow: 0 1px 0 #ffffff; 
-					max-width: 50%;
-					}
-            code {background: white;}
-            a {border-bottom: 1px solid #444444; color: #444444; text-decoration: none;}
-            a:hover {border-bottom: 0;}
+body {	
+	margin: 5% auto; 
+	background: url('ovtse.jpeg') center center repeat; 
+	}
+
+.contents {
+	background: linear-gradient(0deg, 
+	rgba(0, 0, 0, 0) 0%, 
+	rgba(26, 26, 26, 0.6) 15%, 
+	rgba(26, 26, 26, 0.6) 85%,
+	rgba(0, 0, 0, 0) 100%);	
+	justify-content: center;
+	}
+
+code {background: white;
+	font-family: monospace;
+	}
+
+a {border-bottom: 0px solid #444444; color: #444444; text-decoration: none;}
+
+a:hover {border-bottom: 0;}
         
-			h1 {
-					text-align: center;
-	
-					}
-			p  {
-					text-align: center;	
-	
-					}
+h1 {
+	text-align: center;
+	image-rendering: pixelated;
+	}
+p  {
+	text-align: center;
+	image-rendering: pixelated;
+	}
