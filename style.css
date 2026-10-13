@@ -3,7 +3,7 @@ body {
 	justify-content: center;
 	display:grid;
 	margin: 5% auto; 
-	background: url('ovtse.jpeg') center center repeat; 
+	background: url('./media/ovtse.jpeg') center center repeat; 
 	}
 
 
@@ -31,8 +31,9 @@ p  {
 
 .contentsholder {
 	display: flex;
-	max-width: 40em;
-	width: 100%;
+	font-size: 13px;
+	max-width: 58em;
+	width: 58em;
 }
 
 .contents {
