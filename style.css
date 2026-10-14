@@ -2,7 +2,7 @@
 body {	
 	justify-content: center;
 	display:grid;
-	margin: 5% auto; 
+	margin: 3em auto; /*this makes the gap in the top*/
 	background: url('./media/ovtse.jpeg') center center repeat; 
 	}
 
